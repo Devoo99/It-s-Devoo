@@ -1,0 +1,73 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Its Devo Fun</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Its Devo Fun</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#games">Games</a></li>
+                <li><a href="#missions">Missions</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home">
+        <h2>Welcome to Its Devo Fun</h2>
+        <p>Hi, I'm Devansh Dixit, an 11-year-old gamer from India. This is my space to share my passion for games like GTA, featuring cars, missions, and much more!</p>
+    </section>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>I'm Devansh Dixit from India. I love playing video games, especially those with lots of action and adventure like GTA. This website is dedicated to sharing my favorite games and missions.</p>
+    </section>
+
+    <section id="games">
+        <h2>Featured Games</h2>
+        <div class="game-card">
+            <h3>Grand Theft Auto</h3>
+            <p>An open-world action-adventure game where players can explore cities, drive cars, and complete various missions.</p>
+            <img src="gta.jpg" alt="GTA Image">
+        </div>
+    </section>
+
+    <section id="missions">
+        <h2>Exciting Missions</h2>
+        <div class="mission-card">
+            <h3>Mission 1: Bank Heist</h3>
+            <p>Plan and execute a thrilling bank heist with your team.</p>
+        </div>
+        <div class="mission-card">
+            <h3>Mission 2: Car Chase</h3>
+            <p>Engage in high-speed car chases and evade the police.</p>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email">
+            <label for="message">Message:</label>
+            <textarea id="message" name="message"></textarea>
+            <button type="submit">Send</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Its Devo Fun. All rights reserved.</p>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
